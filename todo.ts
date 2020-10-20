@@ -69,7 +69,7 @@ const showlist=():void=>{
 ul.innerHTML=html
 }
 
-// delete the item
+// delete the items
  const handleDelete=(a):void=>{
     let list1=ListItems
     list1.splice(a,1) 
